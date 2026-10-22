@@ -4,7 +4,7 @@
 # Entre 180 cm y 199 cm: Alero
 # 200 cm o más: Ala-Pívot o Pívot
 
-altura = int(input("Ingrese su altura sin puntos para determinar su posicion: "))
+altura = float(input("Ingrese su altura sin puntos para determinar su posicion: "))
 
 if 130 <= altura <= 220:
     if altura <= 160:
